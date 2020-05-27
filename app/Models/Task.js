@@ -4,7 +4,8 @@ const mongoose = use('Mongoose')
 const Schema = mongoose.Schema
 
 const Task = {
-  name: { type: String }
+  name: { type: String },
+  description: { type: String }
 }
 const options = {
   versionKey: false

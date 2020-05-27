@@ -1,0 +1,15 @@
+@layout('layout.app')
+
+@section('content')
+  @component('components.container', additionalClasses = ['is-centered'])
+    @slot('body')
+      <div class="column is-10">
+        <div class="columns is-multiline is-mobile-centered space-around">
+          @each(task in tasks)
+            @!component('components.card', task = task)
+          @endeach
+        </div>
+      </div>
+    @endslot
+  @endcomponent
+@endsection

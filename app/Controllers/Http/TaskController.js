@@ -8,8 +8,9 @@ const UpdateFailed = use('App/Exceptions/UpdateFailedException')
 
 class TaskController {
 
-  async index () {
-    return await Task.find({})
+  async index ({ view }) {
+    const tasks = await Task.find({})
+    return view.render('admin.list', { tasks: tasks })
   }
 
   async create ({ view }) {
