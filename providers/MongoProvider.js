@@ -2,6 +2,7 @@
 
 const { ServiceProvider } = require('@adonisjs/fold')
 const mongoose  = require('mongoose')
+const ConnectionDatabaseFailed = use('App/Exceptions/ConnectionDatabaseFailedException')
 
 class MongoProvider extends ServiceProvider {
   /**
@@ -20,7 +21,7 @@ class MongoProvider extends ServiceProvider {
       try {
         mongoose.connect(connectionString, {useNewUrlParser: true, useUnifiedTopology: true, useFindAndModify: false, ...options})
       } catch (error) {
-        console.log(error)
+        throw new ConnectionDatabaseFailed(error)
       }
       return mongoose
     })

@@ -6,7 +6,10 @@
   "main": "index.js",
   "scripts": {
     "start": "node server.js",
-    "test": "node ace test"
+    "test": "node ace test",
+    "css-build": "node-sass --omit-source-map-url public/sass/mystyles.scss public/css/mystyles.css",
+    "css-watch": "npm run css-build -- --watch",
+    "css-start": "npm run css-watch"
   },
   "keywords": [
     "adonisjs",
@@ -28,7 +31,10 @@
     "@adonisjs/shield": "^1.0.8",
     "mongoose": "^5.9.16"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "bulma": "^0.8.2",
+    "node-sass": "^4.14.1"
+  },
   "autoload": {
     "App": "./app"
   }

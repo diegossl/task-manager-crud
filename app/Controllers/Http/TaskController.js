@@ -12,6 +12,10 @@ class TaskController {
     return await Task.find({})
   }
 
+  async create ({ view }) {
+    return view.render('admin.create')
+  }
+
   async store ({ request }) {
     try {
       const task = request.post()

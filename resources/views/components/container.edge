@@ -1,0 +1,5 @@
+@set('classes', ['columns', 'main-content'])
+
+<div class="{{ classes.concat(additionalClasses).join(' ') }}">
+  @!yield($slot.body)
+</div>

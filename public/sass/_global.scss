@@ -1,0 +1,85 @@
+@import url("https://fonts.googleapis.com/css2?family=Alegreya+Sans+SC:wght@500&family=Poppins:wght@400;500;600&display=swap");
+
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+button,
+body {
+  font-family: "Poppins", sans-serif !important;
+}
+
+@media screen and (max-width: 768px) {
+  body {
+    overflow-x: hidden;
+  }
+  .is-mobile-centered {
+    justify-content: center !important;
+    display: flex;
+  }
+}
+
+.main-content {
+  flex: 1;
+}
+
+.flex-1 {
+  flex: 1;
+}
+
+.logo {
+  font-family: "Alegreya Sans SC", sans-serif;
+  color: #2F4F4F;
+}
+
+.footer {
+  padding-top: 10px !important;
+  padding-bottom: 10px !important;
+}
+
+.has-background-logo {
+  background-color: #2F4F4F !important;
+}
+
+.mt-15 {
+  margin-top: 15px !important;
+}
+
+.mt-30 {
+  margin-top: 30px !important;
+}
+
+.mb-0 {
+  margin-bottom: 0px !important;
+}
+.mr-5 {
+  margin-right: 5px !important;
+}
+
+.justify-center {
+  justify-content: center !important;
+}
+
+.space-between {
+  justify-content: space-between;
+}
+
+.space-around {
+  justify-content: space-around;
+}
+
+.card.column {
+  cursor: pointer;
+}
+
+.card.column:hover {
+  transform: scale(1.01);
+  transition-duration: 0.3s;
+}
+
+button.is-logo {
+  color: white !important;
+  background-color: #0697ff !important;
+}
