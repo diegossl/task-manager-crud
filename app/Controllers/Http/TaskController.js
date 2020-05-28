@@ -40,6 +40,7 @@ class TaskController {
     try {
       const id = { _id: params.id }
       await Task.deleteOne(id)
+      return view.render('admin.list')
     } catch (error) {
       console.log(error)
       throw new DeleteFailed(error)

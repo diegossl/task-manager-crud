@@ -1,7 +1,11 @@
+document.addEventListener("DOMContentLoaded", function () {
+  
+  $("#showModal").click(function() {
+    $(".modal").addClass("is-active");
+  });
 
-var button = document.querySelector('open-modal');
-var modal = document.querySelector('page-modal');
-
-button.onclick = function () {
-  modal.style.display = 'block';
-}
+  $(".modal-close").click(function() {
+    $(".modal").removeClass("is-active");
+  });
+  
+})
