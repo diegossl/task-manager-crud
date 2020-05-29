@@ -7,7 +7,7 @@
   "scripts": {
     "start": "node server.js",
     "test": "node ace test",
-    "css-build": "node-sass --omit-source-map-url public/sass/mystyles.scss public/css/mystyles.css",
+    "css-build": "node-sass --omit-source-map-url /sass/mystyles.scss /css/mystyles.css",
     "css-watch": "npm run css-build -- --watch",
     "css-start": "npm run css-watch"
   },
