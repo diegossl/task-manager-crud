@@ -12,7 +12,7 @@ npm install
 
 ### Features
 
-O projeto possui as características comuuns de um CRUD, ou seja:
+O projeto possui as características comuns de um CRUD, ou seja:
 
 * Criar uma nova tarefa;
 * Atualizar uma Tarefa;
