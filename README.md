@@ -4,9 +4,9 @@ Este gerenciador de tarefas é uma ferramenta que serve para listar as tarefas q
 
 ## PrintScreens
 
-![](/public/printscreens/home.png?raw=true)
-![](/public/printscreens/criar.png?raw=true)
-![](/public/printscreens/editar.png?raw=true)
+![](/public/printscreens/home.png?raw=false)
+![](/public/printscreens/criar.png?raw=false)
+![](/public/printscreens/editar.png?raw=false)
 
 
 ## Setup
