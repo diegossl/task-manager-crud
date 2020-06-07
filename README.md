@@ -4,8 +4,17 @@ Este gerenciador de tarefas é uma ferramenta que serve para listar as tarefas q
 
 ## Setup
 
-Use o comando do pacote npm para insntalar as dependências
+Para executar o projeto, será necessário instalar as dependências usando o seguinte comando:
 
 ```bash
 npm install
 ```
+
+### Features
+
+O projeto possui as características comuuns de um CRUD, ou seja:
+
+* Criar uma nova tarefa;
+* Atualizar uma Tarefa;
+* Deletar uma tarefa;
+* Listar todas as tarefas;
