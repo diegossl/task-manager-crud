@@ -1,9 +1,10 @@
-<nav class="navbar has-shadow" role="navigation" aria-label="main navigation">
+<nav class="navbar has-shadow has-background-header" role="navigation" aria-label="main navigation">
   <section class="container">
     <div class="navbar-brand">
-      <a class="navbar-item" href="/">
-        <h1 class="logo is-size-3">DEVBUILDER</h1>
-      </a>
+      <div class="navbar-item">
+        <span class="icon"><i class="fas fa-th-list fa-2x"></i></span>
+        <span><h1 class="logo-text is-size-4">Lista de Tarefas</h1></span>
+      </div>
       <a role="button" class="navbar-burger burger" aria-label="menu" aria-expanded="false" data-target="navbar">
         <span aria-hidden="true"></span>
         <span aria-hidden="true"></span>
@@ -14,8 +15,17 @@
       <div class="navbar-end">
         <div class="navbar-item">
           <div class="buttons">
-            <a class="button modal-button is-primary" data-target="modal-id">
-              <strong>NOVA TAREFA</strong>
+            <a class="button modal-button is-button"  href="{{ route('create') }}">
+              <span class="icon"><i class="fas fa-plus"></i></span>
+              <span><strong>CRIAR</strong></span>              
+            </a>
+          </div>
+        </div>
+        <div class="navbar-item">
+          <div class="buttons">
+            <a class="button modal-button is-button" href="{{ route('list') }}">
+              <span class="icon"><i class="fas fa-list"></i></span>
+              <span><strong>LISTAR</strong></span>              
             </a>
           </div>
         </div>

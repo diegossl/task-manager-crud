@@ -29,9 +29,11 @@ body {
   flex: 1;
 }
 
-.logo {
-  font-family: "Alegreya Sans SC", sans-serif;
+.logo-text {
+  font-family: "Poppins", sans-serif;
   color: #2F4F4F;
+  margin-left: 10px;
+  font-weight: bold;
 }
 
 .footer {
@@ -41,6 +43,10 @@ body {
 
 .has-background-logo {
   background-color: #2F4F4F !important;
+}
+
+.has-background-header {
+  background-color: #BDE7DB;
 }
 
 .mt-15 {
@@ -54,6 +60,7 @@ body {
 .mb-0 {
   margin-bottom: 0px !important;
 }
+
 .mr-5 {
   margin-right: 5px !important;
 }
@@ -79,7 +86,21 @@ body {
   transition-duration: 0.3s;
 }
 
-button.is-logo {
+.card-background {
+  background-color: #BDE7DB;
+}
+
+.is-button {
   color: white !important;
-  background-color: #0697ff !important;
+  background-color: #2F4F4F !important;
+  border: none;
+}
+
+
+.icon-edit {
+  color: #004FC5;
+}
+
+.icon-delete {
+  color: #E70000;
 }

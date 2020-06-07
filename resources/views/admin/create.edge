@@ -1,0 +1,44 @@
+@layout('layout.app')
+
+@section('content')
+  @component('components.container', additionalClasses = ['is-centered', 'is-multiline', 'is-vcentered','mb-0','is-mobile', 'has-background-logo'])
+    @slot('body')
+      <div class="column is-3-desktop is-11-mobile mt-15">
+        <div class="box">
+          <form action="{{ route('store') }}" method="post" enctype="multipart/form-data">
+            
+            <legend class="title is-3 has-text-centered">Nova Tarefa</legend>
+            {{ csrfField() }}
+
+            <div class="field mt-15">
+              <label class="label">Nome</label>
+              <input class="input" type="text" name="name" placeholder="Nome da tarefa" value="{{ old('name', '') }}">
+              @if(hasErrorFor('name'))
+                <p class="help is-danger">{{ getErrorFor('name') }}</p>
+              @endif
+            </div>
+
+            <div class="field">
+              <label class="label">Descrição</label>
+              <textarea 
+                placeholder="Sobre a tarefa"
+                class="input textarea"
+                name="description"
+                cols="30"
+                rows="5"
+              >{{ old('description', '')}}</textarea>
+              @if(hasErrorFor('description'))
+                <p class="help is-danger">{{ getErrorFor('description') }}</p>
+              @endif
+            </div>
+
+            <button class="button is-success is-fullwidth">
+              CRIAR TAREFA
+            </button>
+
+          </form>
+        </div>
+      </div>
+    @endslot
+  @endcomponent
+@endsection

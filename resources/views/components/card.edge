@@ -1,20 +1,26 @@
 <div class="column is-4-desktop is-11-mobile mt-30">
-  <div class="columns is-centered">
+  <div class="columns">
+    <div class="column">
     <div class="card">
-      <header class="card-header">
-        <p class="card-header-title">
+      <header class="card-header card-background">
+        <p class="card-header-title is-centered">
           {{ task.name }}
         </p>
       </header>
       <div class="card-content">
-        <div class="content">
+        <div class="content has-text-centered">
           {{ task.description }}
         </div>
       </div>
       <footer class="card-footer">
-        <a href="#" class="card-footer-item">Editar</a>
-        <a href="#" class="card-footer-item">Apagar</a>
+        <a href="{{ route('edit', { id: task.id }) }}" class="card-footer-item">
+          <span class="icon icon-edit"><i class="fas fa-edit"></i></span>
+        </a>
+        <a href="{{ route('delete', { id: task.id }) }}" class="card-footer-item">
+          <span class="icon icon-delete"><i class="fas fa-trash-alt"></i></span>
+        </a>
       </footer>
     </div>
+  </div>
   </div>
 </div>
