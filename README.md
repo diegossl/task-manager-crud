@@ -9,6 +9,14 @@ Para executar o projeto, será necessário instalar as dependências usando o se
 ```bash
 npm install
 ```
+Em seguida, use o seguinte comando para iniciar o servidor:
+
+```bash
+adonis serve
+```
+Agora o sistema está pronto para ser utilizado através da rota local:
+
+[http://localhost:3333](http://localhost:3333)
 
 ### Features
 
