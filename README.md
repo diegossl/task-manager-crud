@@ -4,7 +4,7 @@ Este gerenciador de tarefas é uma ferramenta que serve para listar as tarefas q
 
 ## Setup
 
-Para executar o projeto, será necessário instalar as dependências usando o seguinte comando no terminal:
+Para executar o projeto, será necessário instalar as dependências digitando o seguinte comando no terminal:
 
 ```bash
 npm install
@@ -16,7 +16,7 @@ Em seguida, crie um arquivo chamado **.env** e copie para dentro dele o conteúd
 adonis key:generate
 ```
 
-Finalmente, use o seguinte comando no terminal para iniciar o servidor:
+Finalmente, digite o seguinte comando no terminal para iniciar o servidor:
 
 ```bash
 adonis serve
