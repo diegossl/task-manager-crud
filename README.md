@@ -1,5 +1,3 @@
-<i class="fas fa-th-list"></i>
-
 # Lista de Tarefas
 
 Este gerenciador de tarefas é uma ferramenta que serve para listar as tarefas que você vai executar. Bem, essa é uma função realmente útil, mas no dia a dia das empresas, mais do que tarefas, é preciso gerenciar equipes. E é para isso que serve essa ferramenta.
