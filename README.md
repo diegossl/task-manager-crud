@@ -4,19 +4,26 @@ Este gerenciador de tarefas é uma ferramenta que serve para listar as tarefas q
 
 ## Setup
 
-Para executar o projeto, será necessário instalar as dependências usando o seguinte comando:
+Para executar o projeto, será necessário instalar as dependências usando o seguinte comando no terminal:
 
 ```bash
 npm install
 ```
-Em seguida, use o seguinte comando para iniciar o servidor:
+
+Em seguida, crie um arquivo chamado **.env** e copie para dentro dele o conteúdo do arquivo **.env.exemple**, que já existe no projeto. Depois digite no terminal o seguinte comando:
+
+```bash
+adonis key:generate
+```
+
+Finalmente, use o seguinte comando no terminal para iniciar o servidor:
 
 ```bash
 adonis serve
 ```
 Agora o sistema está pronto para ser utilizado através da rota local:
 
-[http://localhost:3333](http://localhost:3333/tarefas)
+[http://localhost:3333/tarefas](http://localhost:3333/tarefas)
 
 ### Features
 
