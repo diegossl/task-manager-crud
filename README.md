@@ -2,7 +2,12 @@
 
 Este gerenciador de tarefas é uma ferramenta que serve para listar as tarefas que você vai executar. Essa é uma função realmente útil para o dia-a-dia das pessoas e das empresas para gerenciar as tarefas em função do tempo. E é para isso que serve essa ferramenta.
 
+## PrintScreens
+
 ![](/public/printscreens/home.png?raw=true)
+![](/public/printscreens/criar.png?raw=true)
+![](/public/printscreens/editar.png?raw=true)
+
 
 ## Setup
 
