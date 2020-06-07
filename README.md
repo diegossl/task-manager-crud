@@ -1,31 +1,11 @@
-# Adonis fullstack application
+# Lista de Tarefas
 
-This is the fullstack boilerplate for AdonisJs, it comes pre-configured with.
-
-1. Bodyparser
-2. Session
-3. Authentication
-4. Web security middleware
-5. CORS
-6. Edge template engine
-7. Lucid ORM
-8. Migrations and seeds
+Este gerenciador de tarefas é uma ferramenta que serve para listar as tarefas que você vai executar. Bem, essa é uma função realmente útil, mas no dia a dia das empresas, mais do que tarefas, é preciso gerenciar equipes. E é para isso que serve essa ferramenta.
 
 ## Setup
 
-Use the adonis command to install the blueprint
+Use o comando do pacote npm para insntalar as dependências
 
 ```bash
-adonis new yardstick
-```
-
-or manually clone the repo and then run `npm install`.
-
-
-### Migrations
-
-Run the following command to run startup migrations.
-
-```js
-adonis migration:run
+npm install
 ```
