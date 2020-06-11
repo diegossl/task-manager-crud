@@ -21,11 +21,11 @@ Finalmente, digite o seguinte comando no terminal para iniciar o servidor:
 ```bash
 adonis serve
 ```
-Agora o sistema está pronto para ser utilizado através da rota local:
+Agora o sistema está pronto para ser utilizado através da rota:
 
 [http://localhost:3333/tarefas](http://localhost:3333/tarefas)
 
-### Features
+## Features
 
 O projeto possui as características comuns de um CRUD, ou seja:
 
@@ -34,6 +34,6 @@ O projeto possui as características comuns de um CRUD, ou seja:
 * Deletar uma tarefa;
 * Listar todas as tarefas;
 
-### Licença
+## Licença
 
 Não se aplica.
