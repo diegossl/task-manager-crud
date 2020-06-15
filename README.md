@@ -24,7 +24,7 @@ adonis serve
 
 The system is ready to be used on the route:
 
-[http://localhost:3333/tasks](http://localhost:3333/tasks)
+[http://localhost:3333/tarefas](http://localhost:3333/tarefas)
 
 ## Features
 
