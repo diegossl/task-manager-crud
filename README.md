@@ -1,4 +1,4 @@
-# Lista de Tarefas
+# Task List
 
 This task manager is a tool that serves to list the tasks that you are going to perform. This is a really useful function for the day-to-day lives of people and companies to manage tasks over time. And that's what this tool is for.
 
