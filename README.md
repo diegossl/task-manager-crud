@@ -1,40 +1,40 @@
-# Lista de Tarefas
+# Task Manager
 
-Este gerenciador de tarefas é uma ferramenta que serve para listar as tarefas que você irá executar. Essa é uma função realmente útil para a vida cotidiana de pessoas e empresas para gerenciar tarefas ao longo do tempo. E é para isso que serve esta ferramenta.
+This task manager is a tool that serves to list the tasks that you will be performing. This is a really useful function for the daily lives of people and companies to manage tasks over time. And that's what this tool is for.
 
 ## Setup
 
-Para executar o projeto, será necessário instalar as dependências digitando o seguinte comando no terminal:
+To execute the project, it will be necessary to install the dependencies by typing the following command in the terminal:
 
 ```bash
 npm install
 ```
 
-Em seguida, crie um arquivo chamado **.env** e copie para ele o conteúdo do arquivo **.env.exemple**, que já existe no projeto. Então digite o seguinte comando no terminal:
+Then, create a file called **.env** and copy the contents of the file **.env.exemple**, which already exists in the project, to it. Then type the following command in the terminal:
 
 ```bash
 adonis key:generate
 ```
 
-Por fim, digite o seguinte comando no terminal para iniciar o servidor:
+Finally, type the following command in the terminal to start the server:
 
 ```bash
 adonis serve
 ```
 
-O sistema está pronto para ser usado na rota:
+The system is ready to be used on the route:
 
-[http://localhost:3333/tarefas](http://localhost:3333/tarefas)
+[http://localhost:3333/tasks](http://localhost:3333/tasks)
 
 ## Features
 
-O projeto possui as características comuns de um CRUD, ou seja:
+The project has the common characteristics of a CRUD, namely:
 
-* Crie uma nova tarefa;
-* Atualizar uma tarefa;
-* Excluir uma tarefa;
-* Liste todas as tarefas;
+* Create a new task;
+* Update a task;
+* Delete a task;
+* List all tasks;
 
-## Licença
+## License
 
 MIT
