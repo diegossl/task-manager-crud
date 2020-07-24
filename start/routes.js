@@ -11,4 +11,4 @@ Route.group(() => {
   Route.get('atualizar/:id', 'TaskController.edit').as('edit')
   Route.post('atualizar/:id', 'TaskController.update').as('update')
   Route.get('apagar/:id', 'TaskController.delete').as('delete')
-}).prefix('tarefas')
+}).prefix('tasks')
