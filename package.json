@@ -26,7 +26,7 @@
     "@adonisjs/lucid": "^6.1.3",
     "@adonisjs/session": "^1.0.27",
     "@adonisjs/shield": "^1.0.8",
-    "mongoose": "^5.9.16"
+    "mongoose": "^5.13.15"
   },
   "devDependencies": {},
   "autoload": {
